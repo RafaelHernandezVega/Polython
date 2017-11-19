@@ -1,0 +1,69 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="shared-styles.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+
+
+<dom-module id="my-view1">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+a
+        padding: 10px;
+      }
+    </style>
+
+    <div class="card">
+      <!---<div class="circle">1</div>-->
+      <h1>¿Qué es un Cajero Automatico?</h1>
+      
+      <p>Los Cajeros Automáticos conocidos tambien como ATM (Automatic Teller Machine) son maqunas que facilitan las transacciones en efectivo para los usuarios, realizan operaciones automatizadas como retiro de efectivo, consulta de saldos o cambio de NIP sin la intervención del personal, tambien cuentan con una impresora, lo que hace posile obtener comprobantes de la transaccion para cualquier aclaracion. </p>
+
+      <p>El horario de atencion de nuestros cajeros Automaticos es de lunes a domingo, las 24hrs del día los 365 dias del año. </p>
+
+      <h1>Ventajas de nuestros cajeros</h1>
+
+
+       <ul>
+        <li type="square">Optimizacion de tiempo.</li>
+        <li type="square">Ahorro de recursos.</li>
+        <li type="square">Disposision de efectivo en cualquier momento.</li>
+        <li type="square">Estaran a tu disposicion todo el tiempo</li>
+        <li type="square">Puedes recoger  calquier monto dentro del credito que  tengas disponible</li>
+        <li type="square">Garantizamos tu seguridad en nuestros ATM</li>
+        <li type="square">Operaciones faciles</li>
+        <li type="square">Consulta desde nuestra app la disponivilidad de efectivo y el optimo funcionamiento de nuestros ATM</li>
+      </ul> 
+
+      <h1>Seguridad garantizada</h1>
+      <p>Nuestros sistemas de cajero cuentan con los lineaminetos que la conducef exige, tales como ubicar a los cajeros en zonas concurridas iluminadas o poco aislados. </p>
+      <p>Contamos con camaras de seguridad siempre funcionales tanto dentro del establecimiento como fuera, botones de panico en diversos puntos y un guardia a tu disposicion durante el dia.</p>
+
+
+      <h1>La mejor experiencia en el servicio</h1>
+      <p>Estamos concientes de los contratiempos en los cajeros asi que desde busATM podras consultar tu cajero mas cercano y asegurarte de que cuente con efectivo ademas de su optimo funcionamiento. desgraciadamente los imprevistos siempre existiran y en e caso de que el cajero se encuentre en un ma estado o sin fondos, reportalo y evita que alguien pase un mal rato. </p>
+      
+ 
+  
+
+    </div>
+  </template>
+
+  <script>
+    class MyView1 extends Polymer.Element {
+      static get is() { return 'my-view1'; }
+    }
+
+    window.customElements.define(MyView1.is, MyView1);
+  </script>
+</dom-module>

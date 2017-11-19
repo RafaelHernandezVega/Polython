@@ -1,0 +1,39 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="shared-styles.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/wired-combo/wired-combo.html">
+
+
+<dom-module id="my-view9">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        padding: 10px;
+      }
+    </style>
+
+    <div class="card">
+
+
+       
+      
+        <paper-button raised class="custom indigo">Enviar</paper-button>
+      <style>
+        a paper-button,
+        a:active paper-button,
+        a:visited paper-button {
+          color: blue;
+        }
+      </style>    
+    </div>
+  </template>
+
+  <script>
+    class MyView9 extends Polymer.Element {
+      static get is() { return 'my-view9'; }
+    }
+
+    window.customElements.define(MyView9.is, MyView9);
+  </script>
+</dom-module>
